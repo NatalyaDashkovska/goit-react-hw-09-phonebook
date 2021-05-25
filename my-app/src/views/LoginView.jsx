@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { connect } from 'react-redux';
+
 import { authOperations } from '../redux/auth';
 
 import { useDispatch } from 'react-redux';

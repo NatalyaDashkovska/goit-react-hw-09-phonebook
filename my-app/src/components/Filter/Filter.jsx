@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import PropTypes from 'prop-types';
+
 import styles from './Filter.module.css';
-import { connect } from 'react-redux';
+
 import { phonebookActions, phonebookSelectors } from '../../redux/phonebook';
 const Filter = () => {
   const value = useSelector(phonebookSelectors.getFilter);

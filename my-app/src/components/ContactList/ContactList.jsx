@@ -1,10 +1,10 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import PropTypes from 'prop-types';
+
 import styles from './ContactList.module.css';
 import { phonebookOperations, phonebookSelectors } from '../../redux/phonebook';
-import { connect } from 'react-redux';
+
 const ContactList = () => {
   const dispatch = useDispatch();
   useEffect(() => {

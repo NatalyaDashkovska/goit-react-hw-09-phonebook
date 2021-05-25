@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
-import { connect } from 'react-redux';
+
 import { authOperations } from '../redux/auth';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 const styles = {
   form: {
     width: 320,

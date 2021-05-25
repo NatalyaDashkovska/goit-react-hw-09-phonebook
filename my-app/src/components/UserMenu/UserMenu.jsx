@@ -7,7 +7,7 @@ import styles from './UserMenu.module.css';
 const UserMenu = () => {
   const name = useSelector(authSelectors.getUserName);
   const dispatch = useDispatch();
-  // const onLogout = () => dispatch(authOperations.logOut());
+
   const onLogout = useCallback(
     () => dispatch(authOperations.logOut()),
     [dispatch],

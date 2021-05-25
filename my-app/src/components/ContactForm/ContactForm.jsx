@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { connect } from 'react-redux';
+
 import styles from './ContactForm.module.css';
 import { phonebookOperations, phonebookSelectors } from '../../redux/phonebook';
 
