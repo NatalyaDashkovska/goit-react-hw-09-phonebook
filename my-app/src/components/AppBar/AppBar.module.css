@@ -1,0 +1,27 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700px;
+  color: #2a363b;
+  outline: 1px solid black;
+  margin-right: 15px;
+  background-color: cadetblue;
+}
+
+.menu {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700px;
+  color: #2a363b;
+
+  margin-right: 15px;
+}
+
+.AppBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2a363b;
+}
